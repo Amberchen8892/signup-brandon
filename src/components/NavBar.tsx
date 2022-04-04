@@ -6,7 +6,7 @@ export default function NavBar() {
     <>
        <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="https://wype-demo-tyson.netlify.app/">
+          <a className="navbar-brand" href="]https://wype-demo-brandon.netlify.app/">
               <img src={wypeLogo} width="60px" height="50px" alt="WYPE"/>
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="https://wype-demo-tyson.netlify.app/">Home</a>
+                <a className="nav-link active" aria-current="page" href="]https://wype-demo-brandon.netlify.app/">Home</a>
               </li>
             </ul>
             <span className="navbar-text">
