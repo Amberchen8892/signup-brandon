@@ -62,8 +62,8 @@ const useStyles = makeStyles((theme: Theme) =>
 const schema = yup.object().shape({
   ssn: yup.string(),
   dateOfBirth: yup.string(),
-  photoIdPath: yup.string(),
-  proofOfAddressPath: yup.string(),
+  // photoIdPath: yup.string(),
+  // proofOfAddressPath: yup.string(),
 });
 
 interface CustomerInfoFormProps {
@@ -166,7 +166,7 @@ const CustomerInfoForm: FC<CustomerInfoFormProps> = ({ setActiveStep }: Customer
               />
             </Grid>
           </Grid>
-          <Grid container item xs={12}>
+          {/* <Grid container item xs={12}>
             <Grid item xs={12} sm={7} className={classes.leftField} style={{marginRight: '12px'}}>
               <Controller
                 name="photoIdPath"
@@ -215,7 +215,7 @@ const CustomerInfoForm: FC<CustomerInfoFormProps> = ({ setActiveStep }: Customer
                 )}
               />{' '}
             </Grid>
-          </Grid>
+          </Grid> */}
           <Grid container item xs={12}>
             <Grid item xs={12} sm>
               <Typography variant="subtitle1" gutterBottom component="div" style={{ marginTop: '1em' }}>

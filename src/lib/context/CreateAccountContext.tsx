@@ -27,12 +27,13 @@ const initialState: State = {
     repEmail: '',
     repPhone: '',
     kW: '',
+    loan_amount:''
   },
   customerInfo: {
     ssn: '',
     dateOfBirth: '',
-    photoIdPath: '',
-    proofOfAddressPath: '',
+    // photoIdPath: '',
+    // proofOfAddressPath: '',
     toc_agreement_ind: false,
     poa_agreement_ind: false,
   },
