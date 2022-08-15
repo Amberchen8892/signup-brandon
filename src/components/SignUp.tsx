@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const steps = ['Create Account', 'Wype Info', 'Almost Done'];
+const steps = ['Create Account', 'Wype Info'];
 
 function SignUp() {
   const classes = useStyles();
@@ -105,7 +105,6 @@ function SignUp() {
                       <div>
                         {activeStep === 0 && <CreateAccount setActiveStep={setActiveStep} />}
                         {activeStep === 1 && <VerifyIdentityForm setActiveStep={setActiveStep} />}
-                        {activeStep === 2 && <CompleteForm setActiveStep={setActiveStep} />}
                       </div>
                     </CheckoutProvider>
                     {/* <div className={classes.buttons}>
